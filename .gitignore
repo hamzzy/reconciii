@@ -61,10 +61,6 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebooks
-*.ipynb
-*.html
-*.py
 
 # IPython
 profile_default/
