@@ -1,4 +1,4 @@
-# Reconcilation CLI  tools
+# Reconcilation CLI  tools [![Upload Python Package](https://github.com/hamzzy/reconcile/actions/workflows/python-publish.yml/badge.svg)](https://github.com/hamzzy/reconcile/actions/workflows/python-publish.yml)
 **1. Introduction**
 
 This document describes how to use the `reconcile` command-line tool to compare two CSV files and generate a report highlighting missing records and discrepancies between them. The tool can be helpful for data validation, identifying discrepancies in data pipelines, and ensuring data consistency across multiple sources.
@@ -10,6 +10,10 @@ This document describes how to use the `reconcile` command-line tool to compare 
 * Pandas library installed (pip install pandas)
 * Levenshtein library installed (pip install Levenshtein)
 
+**2.1 Installing**
+```bash
+    pip3 install reconcii
+```
 **3. Running the Tool**
 
 **3.1 Required arguments:**
@@ -25,8 +29,10 @@ This document describes how to use the `reconcile` command-line tool to compare 
 **3.2 Example usage:**
 
 ``` bash
-python reconcile -s data/source.csv -t data/target.csv -o report.csv -c column1,column2
+ reconcile -s data/source.csv -t data/target.csv -o report.csv -c column1,column2
 ```
+
+
 
 This command will compare the source file `data/source.csv` with the target file `data/target.csv`, generate a reconciliation report named `report.csv`, and compare discrepancies in columns `column1` and `column2` in addition to the default "ID" column.
 
