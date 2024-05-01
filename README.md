@@ -12,7 +12,7 @@ This document describes how to use the `reconcile` command-line tool to compare 
 
 **2.1 Installing**
 ```bash
-    pip3 install reconcii
+    pip3 install reconciii
 ```
 **3. Running the Tool**
 

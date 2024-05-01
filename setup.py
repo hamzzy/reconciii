@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='reconcile',
+    name='reconciii',
     version='0.1.0',
     py_modules=['reconcile'],
     author='Ibrahim hamzat',
