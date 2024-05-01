@@ -1,7 +1,7 @@
-# Reconcilation CLI  tools [![Upload Python Package](https://github.com/hamzzy/reconcile/actions/workflows/python-publish.yml/badge.svg)](https://github.com/hamzzy/reconcile/actions/workflows/python-publish.yml)
+# Reconcilation CLI  tools 
 **1. Introduction**
 
-This document describes how to use the `reconcile` command-line tool to compare two CSV files and generate a report highlighting missing records and discrepancies between them. The tool can be helpful for data validation, identifying discrepancies in data pipelines, and ensuring data consistency across multiple sources.
+This document describes how to use the `reconciii` command-line tool to compare two CSV files and generate a report highlighting missing records and discrepancies between them. The tool can be helpful for data validation, identifying discrepancies in data pipelines, and ensuring data consistency across multiple sources.
 
 **2. Prerequisites**
 
